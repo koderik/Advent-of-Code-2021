@@ -16,7 +16,7 @@ combined = [str(x) for x in tal]
 inverse = ["0" if x in "1" else "1" for x in combined]
 combined = ("").join(combined)
 inverse = ("").join(inverse)
-tal = int(combined,2)
+tal = int(combined, 2)
 tal_inv = int(inverse, 2)
 print(tal)
 print(tal_inv)
