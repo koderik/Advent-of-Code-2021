@@ -47,7 +47,7 @@ def extract_i(list, index):
 
 with open("fil.txt") as file:
     binlist = file.readlines()
-    copy = [x for x in binlist]
+    copy = list(binlist)
     width = len(binlist[0].strip())
     for i in range(width):
         binlist = extract(binlist, i)
