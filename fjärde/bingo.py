@@ -35,7 +35,7 @@ def get_winner(instructions, bingolist):
                         winlist.append(i)
                         lastwinner = bingo
                         last_inst = instruction
-                        ins_history  =set([x for x in ins_set])
+                        ins_history  =set(list(ins_set))
                         break
 
     print(lastwinner, last_inst)
